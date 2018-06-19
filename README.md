@@ -152,14 +152,14 @@ Download the package and reference the JavaScript manually:
 --------
 There are 3 forms of calling the groupby method.
 
-Full call:
-mydata.groupby(options);
+Full call:<br>
+> mydata.groupby(options);
 
-Fields separared from options:
-mydata.groupby(fields,options);
+Fields separared from options:<br>
+> mydata.groupby(fields,options);
 
-Shorthand that sets options as {count:true, pure:true};
-mydata.groupby(fields);
+Shorthand that sets options as {count:true, pure:true};<br>
+> mydata.groupby(fields);
 
 The <b>fields</b> parameter can be both an array of fields or a comma-separated string that will be turned into an array (this is "Mixed" type of variable).
 The <b>options</b> parameter is an object containing any of the options below.
